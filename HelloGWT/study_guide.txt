@@ -1,0 +1,50 @@
+
+
+GWT Dev guide : http://www.gwtproject.org/doc/latest/DevGuide.html
+
+Quick start : http://www.gwtproject.org/gettingstarted.html
+
+GWT Articles : http://www.gwtproject.org/articles/articles.html
+
+GWT Reference Guide : http://www.gwtproject.org/doc/latest/RefGuide.html  (various API , Widgets gallery)
+
+Widget gallery : http://www.gwtproject.org/doc/latest/RefWidgetGallery.html
+
+
+06/14/2021:
+----------
+
+Quick start:
+
+	GWT project can be created through WebApp creator Or Eclipse IDE.
+
+	GWT Project includes
+		Client : This includes the set of java files that will be eventually translated into Javascript and run as client side code in the browser.
+		
+		Server :  This includes set of java files that will run as bytecode in the server.
+
+
+	Production mode: 
+			 In GWT running your application as Javascript is nothing but production mode.
+			 On triggering the compile mode , Java files will be translated into number of Javascript & HTML files.
+
+	Development mode:
+			
+	Various widget gallery : Buttons &  Panel.: http://www.gwtproject.org/doc/latest/RefWidgetGallery.html
+
+
+Sample GWT App : 
+
+	http://www.gwtproject.org/doc/latest/tutorial/gettingstarted.html
+
+
+RPC Communication:
+
+	http://www.gwtproject.org/doc/latest/tutorial/RPC.html
+	
+	In traditional web application , client talks to the webserver by refreshing  the complete new html page on receiving the response .
+	In contrast ,Ajax does offloading of UI interface logic  to the client side code and only the data exchanged between client & server asynchronously without any 
+	browser refresh happens.
+	This make client side code more responsive and fluid while reducing the load on the server.
+
+	http://www.gwtproject.org/doc/latest/tutorial/clientserver.html

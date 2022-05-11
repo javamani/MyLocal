@@ -1,0 +1,3 @@
+# Module hellogwt
+# RPC service class, partial path of RPC policy file
+com.towerplus.gwt.helloworld.client.MessageService, 65792D9AE45987B8BAF423681015DBAD.gwt.rpc

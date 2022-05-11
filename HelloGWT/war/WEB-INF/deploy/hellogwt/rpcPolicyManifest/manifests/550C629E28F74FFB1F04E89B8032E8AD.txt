@@ -1,0 +1,2 @@
+serviceClass: com.towerplus.gwt.helloworld.client.MessageService
+path: 65792D9AE45987B8BAF423681015DBAD.gwt.rpc
