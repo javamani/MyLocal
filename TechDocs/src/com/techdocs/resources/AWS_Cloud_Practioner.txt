@@ -1,0 +1,7 @@
+AWS:
+	Cloud Concepts.
+	Compliance and security.
+	Technology
+	Billing and Pricing
+	
+AWS Cloud and its value 

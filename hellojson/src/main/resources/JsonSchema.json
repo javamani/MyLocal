@@ -1,0 +1,167 @@
+{
+    "$schema": "http://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "addresses"
+    ],
+    "properties": {
+        "addresses": {
+            "type": "array",
+            "default": [],
+            "title": "The addresses Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "addressID",
+                    "creationDateTime",
+                    "lastUpdDateTime",
+                    "country",
+                    "state",
+                    "pinCode",
+                    "streetName",
+                    "buildingName",
+                    "flatNumber"
+                ],
+                "properties": {
+                    "addressID": {
+                        "type": "string",
+                        "title": "The addressID Schema",
+                        "examples": [
+                            "90ace06b-2257-4760-9dec-75a4ca679d0e"
+                        ]
+                    },
+                    "creationDateTime": {
+                        "type": "string",
+                        "title": "The creationDateTime Schema",
+                        "examples": [
+                            "2014-08-19T22:04:56.814-07:00"
+                        ]
+                    },
+                    "lastUpdDateTime": {
+                        "type": "string",
+                        "title": "The lastUpdDateTime Schema",
+                        "examples": [
+                            "2014-08-19T22:04:56.814-07:00"
+                        ]
+                    },
+                    "country": {
+                        "type": "string",
+                        "title": "The country Schema",
+                        "examples": [
+                            "India"
+                        ]
+                    },
+                    "state": {
+                        "type": "string",
+                        "title": "The state Schema",
+                        "examples": [
+                            "Telengana"
+                        ]
+                    },
+                    "pinCode": {
+                        "type": "string",
+                        "title": "The pinCode Schema",
+                        "examples": [
+                            "400066"
+                        ]
+                    },
+                    "streetName": {
+                        "type": "string",
+                        "title": "The streetName Schema",
+                        "examples": [
+                            "street"
+                        ]
+                    },
+                    "buildingName": {
+                        "type": "string",
+                        "title": "The buildingName Schema",
+                        "examples": [
+                            "my buliding"
+                        ]
+                    },
+                    "flatNumber": {
+                        "type": "string",
+                        "title": "The flatNumber Schema",
+                        "examples": [
+                            "102"
+                        ]
+                    }
+                },
+                "examples": [{
+                    "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+                    "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "country": "India",
+                    "state": "Telengana",
+                    "pinCode": "400066",
+                    "streetName": "street",
+                    "buildingName": "my buliding",
+                    "flatNumber": "102"
+                },
+                {
+                    "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+                    "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "country": "India",
+                    "state": "Telengana",
+                    "pinCode": "400066",
+                    "streetName": "street",
+                    "buildingName": "my buliding",
+                    "flatNumber": "102"
+                }]
+            },
+            "examples": [
+                [{
+                    "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+                    "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "country": "India",
+                    "state": "Telengana",
+                    "pinCode": "400066",
+                    "streetName": "street",
+                    "buildingName": "my buliding",
+                    "flatNumber": "102"
+                },
+                {
+                    "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+                    "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+                    "country": "India",
+                    "state": "Telengana",
+                    "pinCode": "400066",
+                    "streetName": "street",
+                    "buildingName": "my buliding",
+                    "flatNumber": "102"
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "addresses": [{
+            "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+            "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+            "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+            "country": "India",
+            "state": "Telengana",
+            "pinCode": "400066",
+            "streetName": "street",
+            "buildingName": "my buliding",
+            "flatNumber": "102"
+        },
+        {
+            "addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+            "creationDateTime": "2014-08-19T22:04:56.814-07:00",
+            "lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+            "country": "India",
+            "state": "Telengana",
+            "pinCode": "400066",
+            "streetName": "street",
+            "buildingName": "my buliding",
+            "flatNumber": "102"
+        }]
+    }]
+}

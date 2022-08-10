@@ -1,0 +1,26 @@
+{
+	"addresses": [
+		{
+			"addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+			"creationDateTime": "2014-08-19T22:04:56.814-07:00",
+			"lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+			"country": "India",
+			"state": "Telengana",
+			"pinCode": "400066",
+			"streetName": "street",
+			"buildingName": "my buliding",
+			"flatNumber": "102"
+		},
+		{
+			"addressID": "90ace06b-2257-4760-9dec-75a4ca679d0e",
+			"creationDateTime": "2014-08-19T22:04:56.814-07:00",
+			"lastUpdDateTime": "2014-08-19T22:04:56.814-07:00",
+			"country": "India",
+			"state": "Telengana",
+			"pinCode": "400066",
+			"streetName": "street",
+			"buildingName": "my buliding",
+			"flatNumber": "102"
+		}
+	]
+}
