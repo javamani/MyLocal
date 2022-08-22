@@ -1,5 +1,6 @@
 package com.javainuse.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,8 +14,15 @@ import javax.persistence.Id;
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "ID")
     private Long id;
+	
+	@Column(name = "ITEM")
     private String item;
+	
+	//@Column("AMOUNT")
+	private float amount;
+	
     public String getItem() {
 		return item;
 	}
@@ -36,7 +44,7 @@ import javax.persistence.Id;
 		this.amount = amount;
 	}
 
-	private float amount;
+
     
     public Expense() {
     }
