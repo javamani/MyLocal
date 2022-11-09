@@ -1,0 +1,72 @@
+
+Aug 15,2022.
+
+1) How to explain your project.
+		 what is this project is all about ?
+		 what is the objective of this project.
+		 what are the technologies you have used to implement this project.?
+		 what are the modules of this projects.
+		 
+2) Java 8 -- Installation.-- done.
+
+3) Java 8 features:
+	Explain each features in one or 2 lines.
+	Do self recording of your response and improvise that.
+
+//https://beginnersbook.com/2017/10/java-lambda-expressions-tutorial-with-examples/
+// https://www.digitalocean.com/community/tutorials/java-8-features-with-examples
+//https://www.interviewbit.com/blog/java-8-features/
+
+5) what is JDK VS JRE VS JVM ?
+	
+
+
+4) Spring boot Hello worldL:
+	Start.spring.io
+	Generate the project ..Add dependencies like web
+	Import into eclipse by choosing import -> maven --> existing maven project.
+	select pom.xml and then execute as maven build. clean install.
+	
+	
+6) For spring boot project to run , you need a server to have the jar up and running.
+
+6) Udemy.com --> pioneermani/
+		Install spring tool suite
+		Install My sql server.
+
+Next class on Wed Aug 17 , 2022.
+
+1) How to explain your project. 
+		 what is this project is all about ?
+		 what is the objective of this project.
+		 what are the technologies you have used to implement this project.?
+		 what are the modules of this projects.
+		 	-- Prepare in a notepad and listen to your recorded speech.
+		 
+2) Java 8 -- Installation.-- done.
+
+3) Java 8 features:
+	Explain each features in one or 2 lines.
+	Do self recording of your response and improvise that.
+
+//https://beginnersbook.com/2017/10/java-lambda-expressions-tutorial-with-examples/
+
+
+5) what is JDK VS JRE VS JVM ?
+	prepare in short and concise 1 one line statement.
+	java compiler
+
+
+
+4) Spring boot Hello worldL:
+	Start.spring.io
+	Generate the project ..Add dependencies like web
+	Import into eclipse by choosing import -> maven --> existing maven project.
+	select pom.xml and then execute as maven build. clean install.
+	
+	
+6) For spring boot project to run , you need a server to have the jar up and running.
+
+6) Udemy.com --> pioneermani/
+		Install spring tool suite
+		Install My sql server.

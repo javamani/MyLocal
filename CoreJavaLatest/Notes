@@ -1,0 +1,12 @@
+//https://www.interviewbit.com/blog/java-8-features/
+//https://beginnersbook.com/2017/10/java-lambda-expressions-tutorial-with-examples/
+// https://www.digitalocean.com/community/tutorials/java-8-features-with-examples
+
+Lamba Expression:
+		It is an anonymous functions i.e a function that doesnt have any name and not belongs to any classes.
+		No name and no return type.
+		Where to use Lamba expression.:
+				Either in your own functional interface or Functional interface provided by Java.
+		To use functional interface.
+				Pre Java 8 : through using anonymous inner class.
+				Post java 8 : Lambda expression.
