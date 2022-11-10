@@ -19,11 +19,11 @@ public class LoginRequest {
 		this.userName = userName;
 	}
 
-	public String getPassword() {
+	public String getPassWord() {
 		return passWord;
 	}
 
-	public void setPassword(String password) {
+	public void setPassWord(String password) {
 		this.passWord = password;
 	}
 	

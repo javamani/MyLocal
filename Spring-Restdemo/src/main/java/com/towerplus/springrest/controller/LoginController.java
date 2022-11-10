@@ -21,9 +21,9 @@ public class LoginController {
 	public ResponseEntity<LoginRequest> postController(@RequestBody LoginRequest loginRequest) {
 		System.out.println("loginRequest is " + loginRequest.toString());
 		System.out.println("LoginRequest userName is " + loginRequest.getUserName());
-		System.out.println("LoginRequest passWord is " + loginRequest.getPassword());
+		System.out.println("LoginRequest passWord is " + loginRequest.getPassWord());
 		
-		LoginRequest localLoginRequest = new LoginRequest(loginRequest.getUserName(),loginRequest.getPassword());
+		LoginRequest localLoginRequest = new LoginRequest(loginRequest.getUserName(),loginRequest.getPassWord());
 		System.out.println("local Request :" + localLoginRequest.getUserName());
 		
 		return new ResponseEntity<LoginRequest>(loginRequest,HttpStatus.OK);
