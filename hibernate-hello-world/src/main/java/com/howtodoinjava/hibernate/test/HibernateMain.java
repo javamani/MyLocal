@@ -20,7 +20,7 @@ import com.towerplus.hibernate.entity.Student;
 // https://www.testingdocs.com/mysql-tutorials-for-beginners/
 public class HibernateMain { public static void main(String[] args) throws IllegalStateException, SystemException {
 
-    Student student = new Student("Ramesh", "Fadatare", "rameshfadatare@javaguides.com");
+    Student student = new Student("Ramesh1234", "Fadatare", "rameshfadatare@javaguides.com");
     Student student1 = new Student("John", "Cena", "john@javaguides.com");
     Transaction transaction = null;
     try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -28,7 +28,7 @@ public class HibernateMain { public static void main(String[] args) throws Illeg
         transaction = session.beginTransaction();
         // save the student objects
         session.save(student);
-   //     session.save(student1);
+       session.save(student1);
         // commit transaction
         transaction.commit();
     } catch (Exception e) {

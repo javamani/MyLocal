@@ -17,7 +17,7 @@ public class TestHibernate {
 		emp.setFirstName("Manikandan-1");
 		emp.setLastName("Marimuthu-1");
 		
-	//	session.save(emp);
+		session.save(emp);
 		
 		session.getTransaction().commit();
 		HibernateUtil.shutdown();

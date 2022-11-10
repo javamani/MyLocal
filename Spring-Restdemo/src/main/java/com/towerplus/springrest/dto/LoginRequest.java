@@ -5,9 +5,11 @@ package com.towerplus.springrest.dto;
 
 public class LoginRequest {
 	
-String userName;
+	String userName;
 	
-	String password;
+	String passWord;
+	
+	 public LoginRequest() {}
 
 	public String getUserName() {
 		return userName;
@@ -18,16 +20,16 @@ String userName;
 	}
 
 	public String getPassword() {
-		return password;
+		return passWord;
 	}
 
 	public void setPassword(String password) {
-		this.password = password;
+		this.passWord = password;
 	}
 	
 	public LoginRequest(String userName, String password) {
 		this.userName = userName;
-		this.password = password;
+		this.passWord = password;
 		
 	}
 

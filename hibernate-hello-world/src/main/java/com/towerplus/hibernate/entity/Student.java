@@ -29,7 +29,7 @@ public class Student {
     }
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "Student_Id")
 	private long studentID;
 	
@@ -65,7 +65,7 @@ public class Student {
 		this.emailAddress = emailAddress;
 	}
 
-	@Column(name = "First_Name")
+	@Column(name = "FIRST_NAME")
 	private String firstName;
 	
 	@Column(name= "Last_Name")
