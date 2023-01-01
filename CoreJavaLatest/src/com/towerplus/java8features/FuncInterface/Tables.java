@@ -1,6 +1,6 @@
 package com.towerplus.java8features.FuncInterface;
 
-@FunctionalInterface
+//@FunctionalInterface
 public interface Tables {
 	
 	public void add(int a, int b);
