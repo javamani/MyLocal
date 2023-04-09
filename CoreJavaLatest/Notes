@@ -10,3 +10,6 @@ Lamba Expression:
 		To use functional interface.
 				Pre Java 8 : through using anonymous inner class.
 				Post java 8 : Lambda expression.
+				
+Jav 8 features:
+https://winterbe.com/posts/2014/03/16/java-8-tutorial/
