@@ -37,7 +37,7 @@ public class JavaSteamsFilter {
 		
 		//Number statistics
 		List<Integer> numbers2 = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
-		System.out.println("Result is " + numbers2.stream().mapToInt(x -> x).summaryStatistics()); 
+		System.out.println("Number Result is " + numbers2.stream().mapToInt(x -> x).summaryStatistics()); 
 		
 	}
 	
