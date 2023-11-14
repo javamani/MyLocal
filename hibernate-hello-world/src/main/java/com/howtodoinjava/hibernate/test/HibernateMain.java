@@ -31,6 +31,7 @@ public class HibernateMain { public static void main(String[] args) throws Illeg
        session.save(student1);
         // commit transaction
         transaction.commit();
+        
         System.out.println("Execution completed");
     } catch (Exception e) {
         if (transaction != null) {
