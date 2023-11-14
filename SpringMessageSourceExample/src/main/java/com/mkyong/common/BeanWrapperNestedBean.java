@@ -38,6 +38,7 @@ public class BeanWrapperNestedBean {
 	        }
 		 
 		bw.setPropertyValue("supplierDetails.firstName","SupplierFirstName");
+		System.out.println("Samples");
 		System.out.println(bw.getWrappedInstance());
     }
 
