@@ -2,14 +2,11 @@ package com.howtodoinjava.hibernate.test;
 
 import org.hibernate.Session;
 
-import com.howtodoinjava.hibernate.test.dto.EmployeeEntity;
-
 public class TestHibernate {
 	
 	public static void main(String[] args) {
 		Session session = HibernateUtil.getSessionFactory().openSession();
-		session.beginTransaction();
-       
+		session.beginTransaction();       
 		//Add new Employee object
 		EmployeeEntity emp = new EmployeeEntity();
 		emp.setEmployeeId(123457);
@@ -21,6 +18,7 @@ public class TestHibernate {
 		
 		session.getTransaction().commit();
 		HibernateUtil.shutdown();
+		System.out.println("Execution completed");
 	}
 
 }

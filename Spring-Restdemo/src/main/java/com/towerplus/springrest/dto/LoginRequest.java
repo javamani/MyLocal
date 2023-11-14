@@ -1,15 +1,33 @@
 package com.towerplus.springrest.dto;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
 /**
 * authorname Administrator
 */
 
+@Data
+@Getter
+@Setter
 public class LoginRequest {
 	
 	String userName;
 	
 	String passWord;
 	
-	 public LoginRequest() {}
+	String message;
+	
+	 public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public LoginRequest() {}
 
 	public String getUserName() {
 		return userName;

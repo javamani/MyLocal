@@ -1,4 +1,4 @@
-package com.howtodoinjava.hibernate.test.dto;
+package com.howtodoinjava.hibernate.test;
 
 import java.io.Serializable;
 

@@ -2,6 +2,7 @@ package com.example.HelloSpringDataJPA.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -16,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "PRODUCT")
 public class Product {
 	@Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     public int getId() {
 		return id;
