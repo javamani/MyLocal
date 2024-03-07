@@ -2,6 +2,8 @@ package com.howtodoinjava.hibernate.test;
 
 import org.hibernate.Session;
 
+import com.towerplus.hibernate.entity.EmployeeEntity;
+
 public class TestHibernate {
 	
 	public static void main(String[] args) {

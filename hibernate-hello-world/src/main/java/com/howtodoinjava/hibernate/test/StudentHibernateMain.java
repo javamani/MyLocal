@@ -18,7 +18,9 @@ import com.towerplus.hibernate.entity.Student;
  */
 
 // https://www.testingdocs.com/mysql-tutorials-for-beginners/
-public class HibernateMain { public static void main(String[] args) throws IllegalStateException, SystemException {
+public class StudentHibernateMain { 
+	
+	public static void main(String[] args) throws IllegalStateException, SystemException {
 
     Student student = new Student("Mani654321", "Fadatare", "rameshfadatare@javaguides.com");
     Student student1 = new Student("John", "Cena", "john@javaguides.com");

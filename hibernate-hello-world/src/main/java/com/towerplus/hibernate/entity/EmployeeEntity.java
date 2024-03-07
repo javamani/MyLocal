@@ -1,4 +1,4 @@
-package com.howtodoinjava.hibernate.test;
+package com.towerplus.hibernate.entity;
 
 import java.io.Serializable;
 
