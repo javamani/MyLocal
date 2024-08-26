@@ -17,7 +17,7 @@ import com.towerplus.jsonbasics.pojo.Address;
  */
 public class HelloWorld {
 	
-	public static void main(String args) {
+	public static void main(String[] args) {
 		ObjectMapper objectMapper = new ObjectMapper();
 		
 		String json =
@@ -51,7 +51,7 @@ public class HelloWorld {
 		StringReader reader = new StringReader(json);
 		try {
 			Address addresses = objectMapper.readValue(reader, Address.class);
-			System.out.println("Address is" + addresses);
+			System.out.println("Address is" + addresses.toString());
 		} catch (StreamReadException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

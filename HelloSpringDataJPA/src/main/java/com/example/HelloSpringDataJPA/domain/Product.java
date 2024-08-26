@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "PRODUCT")
 public class Product {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     public int getId() {
 		return id;
