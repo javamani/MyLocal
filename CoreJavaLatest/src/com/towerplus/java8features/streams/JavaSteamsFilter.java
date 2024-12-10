@@ -1,8 +1,10 @@
 package com.towerplus.java8features.streams;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class JavaSteamsFilter {
 
@@ -38,6 +40,13 @@ public class JavaSteamsFilter {
 		//Number statistics
 		List<Integer> numbers2 = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
 		System.out.println("Number Result is " + numbers2.stream().mapToInt(x -> x).summaryStatistics()); 
+		
+		String[] players = {"Sachin", "Ganguly" , "Dhoni", "Gambhir","Yuvraj"};
+		Stream.of(players).sorted().forEach(System.out::println);
+		System.out.println("Reverse order is ");
+		Stream.of(players).sorted(Comparator.reverseOrder()).forEach(System.out::println);
+		System.out.println("using map is");
+		Stream.of(players).filter(name -> !name.isEmpty() && name.length() > 5).map(name -> name.toUpperCase()).forEach(System.out::println);
 		
 	}
 	
