@@ -34,8 +34,8 @@ public class JavaSteamsFilter {
 		
 		// Using Map function
 		List<Integer> numbers = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
-		List<Integer> distinctNumbers = numbers.stream().map( i -> i*i).distinct().collect(Collectors.toList());
-		System.out.println("Distinct Number is " + distinctNumbers);
+		//List<Integer> distinctNumbers = numbers.stream().map( i -> i*i).distinct().collect(Collectors.toList());
+		//System.out.println("Distinct Number is " + distinctNumbers);
 		
 		//Number statistics
 		List<Integer> numbers2 = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
@@ -47,6 +47,13 @@ public class JavaSteamsFilter {
 		Stream.of(players).sorted(Comparator.reverseOrder()).forEach(System.out::println);
 		System.out.println("using map is");
 		Stream.of(players).filter(name -> !name.isEmpty() && name.length() > 5).map(name -> name.toUpperCase()).forEach(System.out::println);
+		
+		System.out.println("Parallel Streams examples");
+		Stream<String> playerStream = Stream.of(players);		
+		playerStream.parallel().forEach(name -> System.out.println("Results are "+ name + " " + Thread.currentThread().getName()));
+		
+		System.out.println("Parallel Stream example2");
+		numbers.parallelStream().filter(i -> i % 2 ==0).forEach(number -> System.out.println("Number is " + number));
 		
 	}
 	
