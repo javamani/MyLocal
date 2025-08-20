@@ -5,27 +5,14 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.towerplus.springrest.dto.LoginRequest;
 
-/**
-* authorname Administrator
-*/
-/*
- * {
-    "userName": "Mani",
-    "passWord": "ManiPassword",
-    "message": "Request Param Initialized Successfully"
-}
 
-<userName>Mani</userName>
-<password>ManiPassword</password>
-<message>Request Param Initialized Successfully</message>
- * 
- * 
- */
 @RestController
+@RequestMapping("api/HelloSpringBoot")
 public class LoginController {
 
 	@PostMapping(path ="/LoginRequestJSON" , produces = {MediaType.APPLICATION_JSON_VALUE} )
