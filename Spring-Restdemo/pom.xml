@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.3.RELEASE</version>
+		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.towerplus.springrest</groupId>
@@ -14,7 +14,7 @@
 	<name>Spring-Restdemo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 	
@@ -46,8 +46,7 @@
 		
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-xml</artifactId>
-			<scope>test</scope>
+			<artifactId>jackson-dataformat-xml</artifactId>		
 		</dependency>
 		
 		<dependency>
