@@ -1,5 +1,7 @@
 package com.towerplus.springrest.dto;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -11,6 +13,7 @@ import lombok.Setter;
 @Data
 @Getter
 @Setter
+@JacksonXmlRootElement(localName = "MyRequest")
 public class LoginRequest {
 	
 	String userName;
