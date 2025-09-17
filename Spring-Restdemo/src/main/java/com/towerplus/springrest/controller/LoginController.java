@@ -17,6 +17,7 @@ import com.towerplus.springrest.exception.ResourceNotFoundException;
 import com.towerplus.springrest.model.User;
 
 import io.micrometer.core.instrument.MeterRegistry;
+import io.swagger.v3.oas.annotations.Operation;
 
 
 @RestController
@@ -63,6 +64,12 @@ public class LoginController {
 		return new ResponseEntity<User>(user,HttpStatus.OK); 
 	}
 	
+	
+	@Operation(
+		    summary = "Get customer by  User ID",
+		    description = "Returns customer details for the given ID",
+		    tags = {"Customer"}
+		)
 	@GetMapping(path ="/getUser/{userId}" , produces = {MediaType.APPLICATION_JSON_VALUE} )
 	public String getUser(@PathVariable int userId) {		
 		Log.debug("getUser request received successfully");
