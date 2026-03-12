@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloSpringDataJpaApplication {
 
 	public static void main(String[] args) {
+		System.out.println(" Spring boot data JPA");
 		SpringApplication.run(HelloSpringDataJpaApplication.class, args);
 	}
 
