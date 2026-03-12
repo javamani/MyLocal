@@ -32,6 +32,7 @@ public class ProductController {
 
     @GetMapping("/products")
     public List<Product> findAllProducts() {
+        System.out.println("welcome to products");
         return service.getProducts();
     }
 
