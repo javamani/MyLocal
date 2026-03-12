@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Uploading-files/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/Uploading-files/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRestExample/.mvn/.mvn1.iml" filepath="$PROJECT_DIR$/SpringRestExample/.mvn/.mvn1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP-DEMO/.mvn/.mvn2.iml" filepath="$PROJECT_DIR$/AOP-DEMO/.mvn/.mvn2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Restdemo/.mvn/.mvn3.iml" filepath="$PROJECT_DIR$/Spring-Restdemo/.mvn/.mvn3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaLatest/CoreJavaLatest.iml" filepath="$PROJECT_DIR$/CoreJavaLatest/CoreJavaLatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaNew/CoreJavaNew.iml" filepath="$PROJECT_DIR$/CoreJavaNew/CoreJavaNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternsLatest/DesignPatternsLatest.iml" filepath="$PROJECT_DIR$/DesignPatternsLatest/DesignPatternsLatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Drools-Learnings/Drools-Learnings.iml" filepath="$PROJECT_DIR$/Drools-Learnings/Drools-Learnings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloGWT/HelloGWT.iml" filepath="$PROJECT_DIR$/HelloGWT/HelloGWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InheritanceORM/InheritanceORM.iml" filepath="$PROJECT_DIR$/InheritanceORM/InheritanceORM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JsonHelloWorld/JsonHelloWorld.iml" filepath="$PROJECT_DIR$/JsonHelloWorld/JsonHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootHelloWorld/SpringBootHelloWorld.iml" filepath="$PROJECT_DIR$/SpringBootHelloWorld/SpringBootHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLModifier/XMLModifier.iml" filepath="$PROJECT_DIR$/XMLModifier/XMLModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drools-hello-world/drools-hello-world.iml" filepath="$PROJECT_DIR$/drools-hello-world/drools-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellojson/hellojson.iml" filepath="$PROJECT_DIR$/hellojson/hellojson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate-hello-world/hibernate-hello-world.iml" filepath="$PROJECT_DIR$/hibernate-hello-world/hibernate-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate-mappings/hibernate-mappings.iml" filepath="$PROJECT_DIR$/hibernate-mappings/hibernate-mappings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itext-example/itext-example.iml" filepath="$PROJECT_DIR$/itext-example/itext-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRestExample/src/main/main.iml" filepath="$PROJECT_DIR$/SpringRestExample/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eurekademo/src/main/main1.iml" filepath="$PROJECT_DIR$/Eurekademo/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uploading-files/src/main/main10.iml" filepath="$PROJECT_DIR$/Uploading-files/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloSpringDataJPA/src/main/main2.iml" filepath="$PROJECT_DIR$/HelloSpringDataJPA/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MongoJson/src/main/main3.iml" filepath="$PROJECT_DIR$/MongoJson/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Restdemo/src/main/main4.iml" filepath="$PROJECT_DIR$/Spring-Restdemo/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP-DEMO/src/main/main5.iml" filepath="$PROJECT_DIR$/AOP-DEMO/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuhanDemo/src/main/main6.iml" filepath="$PROJECT_DIR$/GuhanDemo/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flinkkafkamongodbdemo/src/main/main7.iml" filepath="$PROJECT_DIR$/flinkkafkamongodbdemo/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMessageSourceExample/src/main/main8.iml" filepath="$PROJECT_DIR$/SpringMessageSourceExample/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-demo/src/main/main9.iml" filepath="$PROJECT_DIR$/kafka-demo/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Restdemo/src/test/test.iml" filepath="$PROJECT_DIR$/Spring-Restdemo/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloSpringDataJPA/src/test/test1.iml" filepath="$PROJECT_DIR$/HelloSpringDataJPA/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MongoJson/src/test/test10.iml" filepath="$PROJECT_DIR$/MongoJson/src/test/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMessageSourceExample/src/test/test2.iml" filepath="$PROJECT_DIR$/SpringMessageSourceExample/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uploading-files/src/test/test3.iml" filepath="$PROJECT_DIR$/Uploading-files/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRestExample/src/test/test4.iml" filepath="$PROJECT_DIR$/SpringRestExample/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flinkkafkamongodbdemo/src/test/test5.iml" filepath="$PROJECT_DIR$/flinkkafkamongodbdemo/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP-DEMO/src/test/test6.iml" filepath="$PROJECT_DIR$/AOP-DEMO/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-demo/src/test/test7.iml" filepath="$PROJECT_DIR$/kafka-demo/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuhanDemo/src/test/test8.iml" filepath="$PROJECT_DIR$/GuhanDemo/src/test/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eurekademo/src/test/test9.iml" filepath="$PROJECT_DIR$/Eurekademo/src/test/test9.iml" />
+    </modules>
+  </component>
+</project>
